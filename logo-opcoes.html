@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="pt-PT">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>FuturePal · logótipo M3 verde (harmonia)</title>
+<style>
+  :root { --bg: #0b1416; --card: #142427; --text: #eef6f6; --muted: #a9bcbe; --line: rgba(255,255,255,.08); }
+  body { margin: 0; background: var(--bg); color: var(--text); font: 16px/1.5 "Segoe UI", system-ui, sans-serif; padding: 32px 16px 60px; }
+  h1 { text-align: center; margin: 0 0 6px; letter-spacing: -.02em; }
+  .intro { text-align: center; color: var(--muted); margin: 0 auto 30px; max-width: 680px; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 18px; max-width: 1180px; margin: 0 auto; }
+  .opt { background: var(--card); border: 1px solid var(--line); border-radius: 28px; padding: 22px; }
+  .opt.ref { opacity: .75; }
+  .opt h2 { margin: 0 0 4px; font-size: 20px; } .opt p { margin: 0 0 16px; color: var(--muted); font-size: 14.5px; min-height: 66px; }
+  .big { display: block; width: 160px; height: 160px; margin: 0 auto 16px; filter: drop-shadow(0 18px 30px rgba(0,0,0,.45)); }
+  .sizes { display: flex; align-items: end; justify-content: center; gap: 12px; margin-bottom: 16px; }
+  .sizes svg:nth-child(1) { width: 56px; height: 56px; } .sizes svg:nth-child(2) { width: 36px; height: 36px; } .sizes svg:nth-child(3) { width: 24px; height: 24px; } .sizes svg:nth-child(4) { width: 16px; height: 16px; }
+  .lockups { display: grid; gap: 8px; }
+  .lock { display: flex; align-items: center; gap: 10px; padding: 12px 14px; border-radius: 14px; font-weight: 800; font-size: 21px; letter-spacing: -.02em; }
+  .lock svg { width: 36px; height: 36px; flex: none; }
+  .lock.dark { background: #0a0a0d; color: #fff; } .lock.light { background: #fff; color: #0f1f22; }
+  .lock span em { font-style: normal; color: #17c3c9; } .lock.light span em { color: #0b7a85; }
+</style>
+</head>
+<body>
+<h1>Logótipo M3 verde · cores em harmonia</h1>
+<p class="intro">Tirei o índigo, que era o que chocava com o verde. Agora a carteira e a seta usam a mesma família de cores, do azul-petróleo ao verde. A versão anterior está à esquerda.</p>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <mask id="slot"><rect width="512" height="512" fill="#fff"/><rect x="300" y="290" width="150" height="84" rx="34" fill="#000"/></mask>
+    <!-- anterior -->
+    <linearGradient id="neon" x1="0" y1="1" x2="1" y2="0"><stop offset="0" stop-color="#17c3c9"/><stop offset="1" stop-color="#8b93ff"/></linearGradient>
+    <linearGradient id="green" x1="0" y1="1" x2="1" y2="0"><stop offset="0" stop-color="#2fd27f"/><stop offset="1" stop-color="#a6f4c5"/></linearGradient>
+    <radialGradient id="glowT" cx=".7" cy=".25" r=".8"><stop offset="0" stop-color="#17c3c9" stop-opacity=".35"/><stop offset="1" stop-color="#17c3c9" stop-opacity="0"/></radialGradient>
+    <radialGradient id="glowG" cx=".7" cy=".22" r=".8"><stop offset="0" stop-color="#2fd27f" stop-opacity=".3"/><stop offset="1" stop-color="#17c3c9" stop-opacity="0"/></radialGradient>
+    <!-- G1: carteira azul-petróleo → verde-esmeralda; seta verde-menta clara -->
+    <linearGradient id="tealGreen" x1="0" y1="1" x2="1" y2="0"><stop offset="0" stop-color="#14b8c4"/><stop offset="1" stop-color="#2fd27f"/></linearGradient>
+    <linearGradient id="mint" x1="0" y1="1" x2="1" y2="0"><stop offset="0" stop-color="#7cf0b5"/><stop offset="1" stop-color="#e3fff0"/></linearGradient>
+    <!-- G2: carteira em azul-petróleo (um só tom); seta verde viva -->
+    <linearGradient id="teal" x1="0" y1="1" x2="1" y2="0"><stop offset="0" stop-color="#0f9aa6"/><stop offset="1" stop-color="#22cfd4"/></linearGradient>
+    <!-- G3: seta que passa de azul-petróleo (na carteira) a verde (na ponta) -->
+    <linearGradient id="bridge" x1="0" y1="1" x2="1" y2="0"><stop offset="0" stop-color="#17c3c9"/><stop offset="1" stop-color="#3ee08f"/></linearGradient>
+
+    <symbol id="frame" viewBox="0 0 512 512"><rect width="512" height="512" rx="116" fill="#0b1416"/><rect x="1.5" y="1.5" width="509" height="509" rx="114.5" fill="none" stroke="#2fd2a8" stroke-opacity=".25" stroke-width="3"/></symbol>
+
+    <symbol id="prev" viewBox="0 0 512 512">
+      <use href="#frame"/><rect width="512" height="512" rx="116" fill="url(#glowT)"/>
+      <path d="M128 236 L214 166 L268 204 L372 112" fill="none" stroke="url(#green)" stroke-width="30" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M320 108 H376 V164" fill="none" stroke="#a6f4c5" stroke-width="30" stroke-linecap="round" stroke-linejoin="round"/>
+      <rect x="100" y="236" width="312" height="184" rx="44" fill="url(#neon)" mask="url(#slot)"/><circle cx="346" cy="332" r="14" fill="#8b93ff"/>
+    </symbol>
+
+    <symbol id="G1" viewBox="0 0 512 512">
+      <use href="#frame"/><rect width="512" height="512" rx="116" fill="url(#glowG)"/>
+      <path d="M128 236 L214 166 L268 204 L372 112" fill="none" stroke="url(#mint)" stroke-width="30" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M320 108 H376 V164" fill="none" stroke="#e3fff0" stroke-width="30" stroke-linecap="round" stroke-linejoin="round"/>
+      <rect x="100" y="236" width="312" height="184" rx="44" fill="url(#tealGreen)" mask="url(#slot)"/><circle cx="346" cy="332" r="14" fill="#2fd27f"/>
+    </symbol>
+
+    <symbol id="G2" viewBox="0 0 512 512">
+      <use href="#frame"/><rect width="512" height="512" rx="116" fill="url(#glowG)"/>
+      <path d="M128 236 L214 166 L268 204 L372 112" fill="none" stroke="#3ee08f" stroke-width="30" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M320 108 H376 V164" fill="none" stroke="#3ee08f" stroke-width="30" stroke-linecap="round" stroke-linejoin="round"/>
+      <rect x="100" y="236" width="312" height="184" rx="44" fill="url(#teal)" mask="url(#slot)"/><circle cx="346" cy="332" r="14" fill="#22cfd4"/>
+    </symbol>
+
+    <symbol id="G3" viewBox="0 0 512 512">
+      <use href="#frame"/><rect width="512" height="512" rx="116" fill="url(#glowG)"/>
+      <path d="M128 236 L214 166 L268 204 L372 112" fill="none" stroke="url(#bridge)" stroke-width="30" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M320 108 H376 V164" fill="none" stroke="#3ee08f" stroke-width="30" stroke-linecap="round" stroke-linejoin="round"/>
+      <rect x="100" y="236" width="312" height="184" rx="44" fill="url(#teal)" mask="url(#slot)"/><circle cx="346" cy="332" r="14" fill="#17c3c9"/>
+    </symbol>
+  </defs>
+</svg>
+
+<div class="grid" id="grid"></div>
+
+<script>
+  var opts = [
+    ['prev', 'Anterior (seta verde)', 'Carteira azul-petróleo → índigo com seta verde. O índigo é o que choca.', true],
+    ['G1', 'G1 · Petróleo → esmeralda', 'A carteira passa de azul-petróleo a verde e a seta é verde-menta clara. É tudo uma só família de cores, suave e moderna.'],
+    ['G2', 'G2 · Petróleo + verde vivo', 'Carteira só em azul-petróleo, seta em verde vivo. São dois tons vizinhos, com bom contraste e ar limpo.'],
+    ['G3', 'G3 · Seta em transição', 'A seta nasce azul-petróleo junto à carteira e termina verde na ponta, como se o dinheiro "ganhasse vida" ao crescer.']
+  ];
+  document.getElementById('grid').innerHTML = opts.map(function (o) {
+    var u = '<svg><use href="#' + o[0] + '"/></svg>';
+    return '<div class="opt' + (o[3] ? ' ref' : '') + '"><h2>' + o[1] + '</h2><p>' + o[2] + '</p>' +
+      '<svg class="big"><use href="#' + o[0] + '"/></svg>' +
+      '<div class="sizes">' + u + u + u + u + '</div>' +
+      '<div class="lockups"><div class="lock dark">' + u + '<span>Future<em>Pal</em></span></div><div class="lock light">' + u + '<span>Future<em>Pal</em></span></div></div></div>';
+  }).join('');
+</script>
+</body>
+</html>
