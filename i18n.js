@@ -184,6 +184,8 @@ window.FP_I18N = {
     'Para começar': ['To get started', 'Para empezar', 'Pour commencer'],
     'MyFuturePal. Não presta aconselhamento nem serviços financeiros.': ['MyFuturePal. Does not provide financial advice or financial services.', 'MyFuturePal. No ofrece asesoramiento ni servicios financieros.', 'MyFuturePal. Ne fournit ni conseil ni services financiers.'],
     'Controla as tuas despesas e descobre para onde vai cada cêntimo, no poupar é que está o ganho.': ['Track your expenses and see where every cent goes: saving is where you win.', 'Controla tus gastos y descubre adónde va cada céntimo: en el ahorro está la ganancia.', 'Suivez vos dépenses et voyez où va chaque centime : c’est en épargnant qu’on gagne.'],
+    'Política de privacidade': ['Privacy policy', 'Política de privacidad', 'Politique de confidentialité'],
+    'Termos': ['Terms', 'Términos', 'Conditions'],
     'Regista um gasto em 3 segundos, vê se o próximo mês fecha bem e poupa para o que queres. Sem ligar o banco.': ['Log an expense in 3 seconds, see if next month works out and save for what you want. No bank connection needed.', 'Registra un gasto en 3 segundos, mira si el próximo mes cuadra y ahorra para lo que quieres. Sin conectar el banco.', 'Note une dépense en 3 secondes, vois si le mois prochain tient et épargne pour ce que tu veux. Sans connecter ta banque.'],
     'Android': ['Android', 'Android', 'Android'],
     'Como funciona': ['How it works', 'Cómo funciona', 'Comment ça marche'],
